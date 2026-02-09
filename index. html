@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Market & Consumer Insight Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- SLIDE 1: OPENING -->
+  <section class="slide opening">
+    <h1>Your Name</h1>
+    <h2>Market & Consumer Insight Analyst</h2>
+    <p>Turning consumer behaviour into strategic clarity.</p>
+    <span class="scroll-hint">Scroll ↓</span>
+  </section>
+
+  <!-- SLIDE 2: BACKGROUND -->
+  <section class="slide">
+    <h2>Background</h2>
+    <p>
+      I specialise in consumer insight, cultural analysis, and market research,
+      translating data and behaviour into strategic recommendations for brands.
+    </p>
+    <p>
+      My work bridges academic research, brand strategy, and real-world consumer
+      behaviour, with a strong interest in luxury, fashion, and beauty markets.
+    </p>
+  </section>
+
+  <!-- SLIDE 3: SKILLS & CERTIFICATIONS -->
+  <section class="slide">
+    <h2>Skills & Certifications</h2>
+
+    <div class="two-column">
+      <ul>
+        <li>Consumer & Market Research</li>
+        <li>Qualitative & Quantitative Analysis</li>
+        <li>Trend & Cultural Insight</li>
+        <li>Brand Strategy</li>
+        <li>Presentation & Storytelling</li>
+      </ul>
+
+      <ul>
+        <li>Certificate: Creation, Branding & Retail Experience</li>
+        <li>Academic Research & Writing</li>
+        <li>Data Interpretation</li>
+        <li>Insight Reporting</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: MY WORK -->
+  <section class="slide">
+    <h2>Selected Work</h2>
+
+    <div class="projects-grid">
+
+      <a href="projects/project1.html" class="project-card">
+        <div class="project-cover">Project 1</div>
+        <h3>Luxury Consumer Behaviour Study</h3>
+      </a>
+
+      <a href="projects/project2.html" class="project-card">
+        <div class="project-cover">Project 2</div>
+        <h3>Fashion Market Trend Analysis</h3>
+      </a>
+
+      <a href="projects/project3.html" class="project-card">
+        <div class="project-cover">Project 3</div>
+        <h3>Beauty Brand Consumer Insight Report</h3>
+      </a>
+
+    </div>
+  </section>
+
+</body>
+</html>
