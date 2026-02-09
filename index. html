@@ -78,3 +78,43 @@
 
 </body>
 </html>
+<section id="essays" class="slide">
+  <h2>Research Essays</h2>
+  <p class="section-intro">
+    Independent research essays exploring consumer behaviour, luxury culture,
+    fashion systems, and market signals. Published on Substack.
+  </p>
+
+  <div class="essay-grid">
+
+    <a href="https://your-substack-link-1" target="_blank" class="essay-card">
+      <h3>The New Language of Luxury Consumption</h3>
+      <p class="abstract">
+        An analysis of how post-pandemic consumers redefine luxury through
+        emotional value, identity signalling, and cultural relevance rather
+        than traditional status markers.
+      </p>
+      <span class="tag">Luxury Strategy</span>
+    </a>
+
+    <a href="https://your-substack-link-2" target="_blank" class="essay-card">
+      <h3>Gen Z, Soft Power & Fashion Narratives</h3>
+      <p class="abstract">
+        This essay explores how Gen Z engages with fashion brands through
+        storytelling, social values, and digital intimacy, reshaping brand
+        authority.
+      </p>
+      <span class="tag">Consumer Behaviour</span>
+    </a>
+
+    <a href="https://your-substack-link-3" target="_blank" class="essay-card">
+      <h3>Trend Forecasting Beyond Aesthetics</h3>
+      <p class="abstract">
+        A research-driven view on trend forecasting as a socio-cultural and
+        economic tool, moving beyond visuals into behaviour and market shifts.
+      </p>
+      <span class="tag">Market Insight</span>
+    </a>
+
+  </div>
+</section>
