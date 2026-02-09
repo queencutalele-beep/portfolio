@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* SLIDES */
+.slide {
+  min-height: 100vh;
+  padding: 80px 10%;
+  background: #f6e9ee; /* powder pink */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.opening {
+  background: linear-gradient(180deg, #f6e9ee, #ffffff);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.scroll-hint {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+/* SKILLS */
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  text-decoration: none;
+  color: black;
+}
+
+.project-cover {
+  height: 180px;
+  background: #ecd6de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-cover {
+  transform: translateY(-5px);
+}
