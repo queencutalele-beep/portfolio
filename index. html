@@ -51,6 +51,36 @@
       </ul>
     </div>
   </section>
+<section id="essays" class="slide">
+  <h2>Research Essays</h2>
+
+  <p class="section-intro">
+    Selected research essays exploring consumer behaviour, luxury culture,
+    fashion systems, and market signals. Published on Substack.
+  </p>
+
+  <div class="essay-grid">
+
+    <a href="https://example.com" target="_blank" class="essay-card">
+      <h3>How Luxury Consumers in South Africa Make Meaning</h3>
+      <p class="abstract">
+        An analysis of cultural identity, aspiration, and value perception
+        shaping luxury consumption in emerging markets.
+      </p>
+      <span class="tag">Consumer Insight</span>
+    </a>
+
+    <a href="https://example.com" target="_blank" class="essay-card">
+      <h3>Trend Fatigue and the New Consumer Slowdown</h3>
+      <p class="abstract">
+        This essay examines how overproduction of trends is reshaping
+        attention, trust, and buying behaviour in fashion and beauty.
+      </p>
+      <span class="tag">Trend Analysis</span>
+    </a>
+
+  </div>
+</section>
 
   <!-- SLIDE 4: MY WORK -->
   <section class="slide">
@@ -74,23 +104,5 @@
       </a>
 
     </div>
-  </section><section id="essays" class="slide">
-  <h2>Research Essays</h2>
-  <p class="section-intro">
-    Selected research essays exploring consumer behaviour, luxury culture,
-    fashion systems, and market signals. Published on Substack.
-  </p>
+  </section>
 
-  <div class="essay-grid">
-
-    <a href="https://example.com" target="_blank" class="essay-card">
-      <h3>Example Essay Title</h3>
-      <p class="abstract">
-        This is a placeholder abstract. It explains the research question,
-        approach, and key insight in 2–3 sentences.
-      </p>
-      <span class="tag">Consumer Insight</span>
-    </a>
-
-  </div>
-</section>
