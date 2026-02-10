@@ -8,6 +8,9 @@
 body {
   scroll-behavior: smooth;
 }
+body {
+  scroll-snap-type: y mandatory;
+}
 
 /* SLIDES */
 .slide {
@@ -125,4 +128,9 @@ ul li {
   background: #f3c6d3;
   border-radius: 999px;
   color: #5a2a3a;
+}
+.slide {
+  min-height: 100vh;
+  padding: 80px 10%;
+  scroll-snap-align: start;
 }
