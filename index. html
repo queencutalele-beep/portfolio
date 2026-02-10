@@ -2,107 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name | Market & Consumer Insight Analyst</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- SLIDE 1: OPENING -->
-  <section class="slide opening">
-    <h1>Your Name</h1>
-    <h2>Market & Consumer Insight Analyst</h2>
-    <p>Turning consumer behaviour into strategic clarity.</p>
-    <span class="scroll-hint">Scroll ↓</span>
-  </section>
+<!-- NAVIGATION -->
+<nav class="nav">
+  <div class="logo">Your Name</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#essays">Research</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-  <!-- SLIDE 2: BACKGROUND -->
-  <section class="slide">
-    <h2>Background</h2>
-    <p>
-      I specialise in consumer insight, cultural analysis, and market research,
-      translating data and behaviour into strategic recommendations for brands.
-    </p>
-    <p>
-      My work bridges academic research, brand strategy, and real-world consumer
-      behaviour, with a strong interest in luxury, fashion, and beauty markets.
-    </p>
-  </section>
-
-  <!-- SLIDE 3: SKILLS & CERTIFICATIONS -->
-  <section class="slide">
-    <h2>Skills & Certifications</h2>
-
-    <div class="two-column">
-      <ul>
-        <li>Consumer & Market Research</li>
-        <li>Qualitative & Quantitative Analysis</li>
-        <li>Trend & Cultural Insight</li>
-        <li>Brand Strategy</li>
-        <li>Presentation & Storytelling</li>
-      </ul>
-
-      <ul>
-        <li>Certificate: Creation, Branding & Retail Experience</li>
-        <li>Academic Research & Writing</li>
-        <li>Data Interpretation</li>
-        <li>Insight Reporting</li>
-      </ul>
-    </div>
-  </section>
-<section id="essays" class="slide">
-  <h2>Research Essays</h2>
-
-  <p class="section-intro">
-    Selected research essays exploring consumer behaviour, luxury culture,
-    fashion systems, and market signals. Published on Substack.
+<!-- OPENING SLIDE -->
+<section class="hero slide">
+  <h1>Market & Consumer Insight Analyst</h1>
+  <p>
+    I analyse consumer behaviour, cultural shifts, and market dynamics
+    to translate data into strategic insight for brands and businesses.
   </p>
+</section>
 
-  <div class="essay-grid">
+<!-- ABOUT -->
+<section id="about" class="slide">
+  <h2>About Me</h2>
+  <p>
+    I am a Market & Consumer Insight Analyst with a background in research,
+    trend analysis, and strategic thinking. My work focuses on understanding
+    how consumers behave, what influences their decisions, and how brands
+    can respond meaningfully.
+  </p>
+</section>
 
-    <a href="https://example.com" target="_blank" class="essay-card">
-      <h3>How Luxury Consumers in South Africa Make Meaning</h3>
-      <p class="abstract">
-        An analysis of cultural identity, aspiration, and value perception
-        shaping luxury consumption in emerging markets.
-      </p>
-      <span class="tag">Consumer Insight</span>
+<!-- PROJECTS -->
+<section id="projects" class="slide">
+  <h2>Selected Projects</h2>
+
+  <div class="card-grid">
+
+    <a href="#" class="card">
+      <h3>Luxury Consumer Behaviour in South Africa</h3>
+      <p>Market insight research on aspiration, culture, and value perception.</p>
     </a>
 
-    <a href="https://example.com" target="_blank" class="essay-card">
-      <h3>Trend Fatigue and the New Consumer Slowdown</h3>
-      <p class="abstract">
-        This essay examines how overproduction of trends is reshaping
-        attention, trust, and buying behaviour in fashion and beauty.
-      </p>
-      <span class="tag">Trend Analysis</span>
+    <a href="#" class="card">
+      <h3>Fashion Trend Analysis SS26</h3>
+      <p>Macro and micro trend signals shaping future consumer behaviour.</p>
     </a>
 
   </div>
 </section>
 
-  <!-- SLIDE 4: MY WORK -->
-  <section class="slide">
-    <h2>Selected Work</h2>
+<!-- RESEARCH ESSAYS -->
+<section id="essays" class="slide">
+  <h2>Research Essays</h2>
 
-    <div class="projects-grid">
+  <p class="section-intro">
+    Selected essays published on Substack exploring consumer culture,
+    luxury, fashion systems, and market behaviour.
+  </p>
 
-      <a href="projects/project1.html" class="project-card">
-        <div class="project-cover">Project 1</div>
-        <h3>Luxury Consumer Behaviour Study</h3>
-      </a>
+  <div class="card-grid">
 
-      <a href="projects/project2.html" class="project-card">
-        <div class="project-cover">Project 2</div>
-        <h3>Fashion Market Trend Analysis</h3>
-      </a>
+    <a href="https://example.com" target="_blank" class="card">
+      <h3>How Luxury Consumers in South Africa Make Meaning</h3>
+      <p>
+        An exploration of identity, aspiration, and symbolic value
+        in luxury consumption.
+      </p>
+    </a>
 
-      <a href="projects/project3.html" class="project-card">
-        <div class="project-cover">Project 3</div>
-        <h3>Beauty Brand Consumer Insight Report</h3>
-      </a>
+    <a href="https://example.com" target="_blank" class="card">
+      <h3>Trend Fatigue and the New Consumer Slowdown</h3>
+      <p>
+        Examining how overexposure to trends reshapes attention and trust.
+      </p>
+    </a>
 
-    </div>
-  </section>
+  </div>
+</section>
 
+<!-- SKILLS -->
+<section id="skills" class="slide">
+  <h2>Skills & Certifications</h2>
+
+  <ul class="skills-list">
+    <li>Market & Consumer Research</li>
+    <li>Trend Analysis & Forecasting</li>
+    <li>Data Interpretation & Insight Writing</li>
+    <li>Brand & Cultural Strategy</li>
+    <li>Inside LVMH Certification</li>
+    <li>Creation, Branding & Retail Certificate</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="slide contact">
+  <h2>Contact</h2>
+  <p>
+    Let’s connect for research, strategy, or insight-led projects.
+  </p>
+  <p>
+    Email: <a href="mailto:your@email.com">your@email.com</a>
+  </p>
+</section>
+
+<footer>
+  <p>© Your Name — Market & Consumer Insight Analyst</p>
+</footer>
+
+</body>
+</html>
