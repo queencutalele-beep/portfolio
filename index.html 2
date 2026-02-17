@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Market & Consumer Insight</title>
+
+<!-- Google Font (Editorial Feel) -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #faf6f8;
+  color: #1a1a1a;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+/* SLIDES */
+section {
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+/* HEADINGS */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 25px;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+/* TEXT */
+p {
+  max-width: 650px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* GRID */
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 25px;
+}
+
+/* CARDS */
+.card {
+  padding: 30px;
+  background: white;
+  border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+  transition: 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- SLIDE 1: OPENING -->
+<section>
+  <h1>Your Name</h1>
+  <p>
+    Market & Consumer Insight Analyst exploring culture,
+    behaviour, and strategy through a luxury-informed lens.
+  </p>
+</section>
+
+<!-- SLIDE 2: POSITIONING -->
+<section>
+  <h2>Positioning</h2>
+  <p>
+    I translate consumer behaviour into strategic direction.
+    My work sits at the intersection of fashion, culture,
+    and market intelligence — where insight shapes brand power.
+  </p>
+</section>
+
+<!-- SLIDE 3: SELECTED PROJECTS -->
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="card-grid">
+
+    <a href="#" class="card">
+      <h3>Luxury Consumer Behaviour in South Africa</h3>
+      <p>
+        Cultural identity, aspiration, and value perception
+        shaping emerging luxury markets.
+      </p>
+    </a>
+
+    <a href="#" class="card">
+      <h3>SS26 Fashion System Analysis</h3>
+      <p>
+        Structure, silhouettes, and symbolic signalling
+        across the Spring Summer 2026 runway cycle.
+      </p>
+    </a>
+
+  </div>
+</section>
+
+<!-- SLIDE 4: RESEARCH ESSAYS -->
+<section>
+  <h2>Research Essays</h2>
+
+  <div class="card-grid">
+
+    <a href="https://example.com" target="_blank" class="card">
+      <h3>How Luxury Consumers Construct Meaning</h3>
+      <p>
+        An editorial exploration of symbolic capital
+        and emotional value in luxury consumption.
+      </p>
+    </a>
+
+    <a href="https://example.com" target="_blank" class="card">
+      <h3>Trend Saturation & Consumer Fatigue</h3>
+      <p>
+        A behavioural analysis of overproduction,
+        attention economics, and strategic restraint.
+      </p>
+    </a>
+
+  </div>
+</section>
+
+<!-- SLIDE 5: SKILLS -->
+<section>
+  <h2>Capabilities</h2>
+  <p>
+    Market Research • Consumer Insight • Trend Forecasting •
+    Cultural Analysis • Strategic Positioning • Insight Writing
+  </p>
+</section>
+
+<!-- SLIDE 6: CONTACT -->
+<section>
+  <h2>Contact</h2>
+  <p>
+    For collaborations, strategy projects,
+    or insight-led research inquiries.
+  </p>
+  <p style="margin-top:20px;">
+    your@email.com
+  </p>
+</section>
+
+<footer>
+  © Your Name — Market & Consumer Insight
+</footer>
+
+</body>
+</html>
